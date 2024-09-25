@@ -27,7 +27,7 @@ List all TYPO3 console commands
 ===============================
 
 ..  console:command-list::
+    :caption: vendor/bin/typo3 <command> | typo3/sysext/core/bin/typo3 <command> | ddev typo3 <command>
     :json: commands.json
-    :script: vendor/bin/typo3
     :exclude-option: help, quiet, verbose, version, ansi, no-ansi, no-interaction
     :exclude-namespace: clinspector, codesnippet, examples, styleguide
